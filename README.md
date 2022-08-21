@@ -20,5 +20,5 @@ Pour un lancer dé et une catégorie, on donne le score.
        associe les catégories avec les calculs de scores
 
 ## Outils utilisés
-######  Eclipse
-######  JUnit 5
+####  Eclipse
+####  JUnit 5
