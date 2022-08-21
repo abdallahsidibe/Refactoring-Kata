@@ -12,6 +12,9 @@ Pour un lancer dé et une catégorie, on donne le score.
 ####   -Remplacer du code de tableau par un code simple
 ####   -Factorisation du code
 ####   -Séparation des logiques
-#######    class YatzyScore : contient la logique de calcul des scores
-#######    class DiceRoll :  contient la logique de recherche des dés et de combinaisons entre les dés
-#######    class Category : associe les catégories avec les calculs de scores
+###### class YatzyScore
+         contient la logique de calcul des scores
+######   class DiceRoll 
+         contient la logique de recherche des dés et de combinaisons entre les dés
+######  class Category 
+        associe les catégories avec les calculs de scores
