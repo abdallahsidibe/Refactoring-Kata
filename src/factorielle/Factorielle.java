@@ -34,12 +34,8 @@ public class Factorielle {
 				 return n * facto(n - 1); 
              }
 
-		 }		
-		    
-
-}
-
-	
+		 }				    
+   }
 }
 
  */
