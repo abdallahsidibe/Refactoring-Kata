@@ -62,28 +62,22 @@ class FactorielleTest {
 		assertEquals(expected, result);
 	}
 
-	// @Rule public ExpectedException thrown = ExpectedException.none();
-
 	@Test
 	void shouldReturnExceptionIfNumberLessThanZero() throws Throwable{
 		
 		 // GIVEN
+		/**
+		 * -1 is an example of negative number
+		 */
 		int input = -1;
 		String expected = "Exception Message";
+		
+		// WHEN
 		Exception exception = assertThrows(Exception.class, () -> Factorielle.facto(input));
+		
+		// THEN
 		assertEquals(expected, exception.getMessage());
 		
 	}
-
-	/**
-	 * @Test void shouldReturnExceptionIfNumberLessThanZero() {
-	 * 
-	 *       // GIVEN int input = -1; String expected = "Error";
-	 * 
-	 *       // WHEN int result = Factorielle.facto(input);
-	 * 
-	 *       // THEN try { assertEquals(expected, Factorielle.facto(input)); } catch
-	 *       (Exception e) { System.out.println("Something went wrong."); } }
-	 **/
 
 }
